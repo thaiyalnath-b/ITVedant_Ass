@@ -1,0 +1,160 @@
+/* 🌐 Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* 🔝 Header */
+.header {
+  background-color: #222;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.header nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #00bcd4;
+}
+
+/* 📄 Sections */
+.section {
+  background: white;
+  margin: 30px auto;
+  padding: 40px 20px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #222;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #00bcd4;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* 💼 About */
+.section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* 🚀 Projects */
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #00bcd4;
+  border-radius: 5px;
+  text-align: left;
+}
+
+li strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+/* ⚙️ Skills */
+.section p {
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 🧾 Resume */
+.section a {
+  background: #00bcd4;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.section a:hover {
+  background: #0097a7;
+}
+
+/* 📬 Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 80%;
+  max-width: 400px;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+button {
+  background: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .header nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .section {
+    margin: 20px 10px;
+    padding: 30px 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.emp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(161, 242, 204);
+}
+
+.tasks {
+    border: 1px solid yellowgreen;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: rgb(3, 104, 64);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 10px;
+    padding: 5px;
+}

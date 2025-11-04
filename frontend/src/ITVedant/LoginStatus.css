@@ -1,0 +1,25 @@
+.out {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(182, 241, 200);
+}
+
+.in{
+    border: 1px solid greenyellow;
+    padding: 40px 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: green;
+}
+button{
+    padding: 5px 8px;
+}
+
