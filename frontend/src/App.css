@@ -1,4 +1,4 @@
-/* 🌐 Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* 🔝 Header */
 .header {
   background-color: #222;
   color: white;
@@ -41,7 +40,6 @@ body {
   color: #00bcd4;
 }
 
-/* 📄 Sections */
 .section {
   background: white;
   margin: 30px auto;
@@ -60,14 +58,12 @@ body {
   padding-bottom: 5px;
 }
 
-/* 💼 About */
 .section p {
   font-size: 1rem;
   line-height: 1.6;
   margin-top: 10px;
 }
 
-/* 🚀 Projects */
 ul {
   list-style: none;
 }
@@ -87,14 +83,12 @@ li strong {
   color: #111;
 }
 
-/* ⚙️ Skills */
 .section p {
   background: #f7f7f7;
   padding: 10px;
   border-radius: 5px;
 }
 
-/* 🧾 Resume */
 .section a {
   background: #00bcd4;
   color: white;
@@ -142,7 +136,6 @@ button:hover {
   background: #0097a7;
 }
 
-/* 📱 Responsive */
 @media (max-width: 600px) {
   .header nav a {
     display: block;

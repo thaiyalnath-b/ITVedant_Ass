@@ -18,6 +18,7 @@ function App() {
       <section id="contact"><Contact /></section>
     </div>
   );
+  
 }
 
 export default App;

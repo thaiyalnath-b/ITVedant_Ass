@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Projects() {
+  
   const projectList = [
     { title: 'Portfolio Website', desc: 'A personal portfolio built using React.' },
     { title: 'SneakerVerse', desc: 'E-commerce site for sneakers.' },
