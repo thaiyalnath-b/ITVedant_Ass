@@ -1,7 +1,7 @@
 import React from 'react';
 
 function About() {
-  
+
   return (
     <div className="section">
       <h2>About Me</h2>
@@ -11,6 +11,7 @@ function About() {
       </p>
     </div>
   );
+  
 }
 
 export default About
